@@ -30,7 +30,7 @@ export default function Screen2({ onNext }) {
           className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent leading-relaxed"
           style={{ textShadow: "0 0 20px rgba(168, 85, 247, 0.3)" }}
         >
-          Are you alone?
+          Are you alone😉?
         </motion.h1>
 
         <motion.div
@@ -45,7 +45,7 @@ export default function Screen2({ onNext }) {
             onClick={handleYes}
             className="px-10 py-4 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-semibold rounded-full text-xl shadow-lg transition-all duration-300"
           >
-            Yes
+            Yes😁
           </motion.button>
 
           <motion.button
@@ -54,7 +54,7 @@ export default function Screen2({ onNext }) {
             onClick={handleNo}
             className="px-10 py-4 bg-gradient-to-r from-red-500 to-rose-500 text-white font-semibold rounded-full text-xl shadow-lg transition-all duration-300"
           >
-            No
+            No🥲
           </motion.button>
         </motion.div>
       </motion.div>
@@ -77,7 +77,7 @@ export default function Screen2({ onNext }) {
               onClick={(e) => e.stopPropagation()}
             >
               <p className="text-xl text-purple-100 mb-6 leading-relaxed">
-                Be alone for a moment, this surprise is just for you😉
+                Be alone for a moment, this surprise is just for you🫦
               </p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
